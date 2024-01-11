@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/emailEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:autofillHints="emailAddress"
+    android:background="@null"
+    android:imeOptions="actionNext"
+    android:inputType="textEmailAddress"
+    android:maxLines="1"
+    android:padding="16dp"
+    android:selectAllOnFocus="true"
+    android:theme="@style/EditTextStyle"
+    tools:ignore="LabelFor" />
